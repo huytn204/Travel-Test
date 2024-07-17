@@ -1,0 +1,97 @@
+/* Định dạng tổng thể cho container */
+.place-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.place-list-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Định dạng cho form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* Định dạng cho danh sách địa điểm */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.place-item {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.place-item h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.place-item p {
+  margin: 0.5rem 0;
+}
+
+.place-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+/* Định dạng cho các nút */
+.place-item button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-right: 0.5rem;
+}
+
+.place-item button:hover {
+  background: #0056b3;
+}
+
+/* Định dạng cho nút xóa */
+.place-item button:last-child {
+  background: #dc3545;
+}
+
+.place-item button:last-child:hover {
+  background: #c82333;
+}
